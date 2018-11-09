@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLFW"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\glfw-3.1.1\;CMake Files\external\glfw-3.1.1\src\;CMake Files\external\glbinding-2.1.1\;CMake Files\external\glbinding-2.1.1\cmake\;CMake Files\external\glbinding-2.1.1\source\;CMake Files\external\glbinding-2.1.1\source\glbinding\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/Debug/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/home/wvl/Desktop/CG/OpenGLFramework-master/external/tinyobjloader-aa07206"/>
+					<Add directory="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src"/>
+					<Add directory="/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1/src"/>
+					<Add directory="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glm-0.9.6.3"/>
+					<Add directory="/home/wvl/Desktop/CG/OpenGLFramework-master/external/stb_image-2.0.6"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/Debug/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/home/wvl/Desktop/CG/OpenGLFramework-master/external/tinyobjloader-aa07206"/>
+					<Add directory="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src"/>
+					<Add directory="/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1/src"/>
+					<Add directory="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glm-0.9.6.3"/>
+					<Add directory="/home/wvl/Desktop/CG/OpenGLFramework-master/external/stb_image-2.0.6"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/cmake-build-debug/external/glfw-3.1.1/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/glx_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/glx_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/linux_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/linux_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/posix_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/posix_time.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/posix_tls.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/posix_tls.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/x11_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/x11_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/x11_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/x11_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/xkb_unicode.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/xkb_unicode.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.1\"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glfw-3.1.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glbinding-2.1.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glbinding-2.1.1\"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glbinding-2.1.1/cmake/CompileOptions.cmake">
+			<Option virtualFolder="CMake Files\external\glbinding-2.1.1\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glbinding-2.1.1/cmake/Custom.cmake">
+			<Option virtualFolder="CMake Files\external\glbinding-2.1.1\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glbinding-2.1.1/cmake/GetGitRevisionDescription.cmake">
+			<Option virtualFolder="CMake Files\external\glbinding-2.1.1\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glbinding-2.1.1/source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glbinding-2.1.1\source\"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glbinding-2.1.1/source/version.h.in">
+			<Option virtualFolder="CMake Files\external\glbinding-2.1.1\source\"/>
+		</Unit>
+		<Unit filename="/home/wvl/Desktop/CG/OpenGLFramework-master/external/glbinding-2.1.1/source/glbinding/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glbinding-2.1.1\source\glbinding\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
